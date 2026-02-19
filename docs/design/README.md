@@ -18,7 +18,7 @@ A collaboration is a piece of data that represents a shared context and/or agree
 
 ### Shared Instructions
 
-Shared Instructions are a set of instructions and data that is shared between Agents as part of a collaboration. They can include tasks, goals, or any other type of information that is relevant to the collaboration. Shared Instructions are designed to be flexible and can be used in a wide range of scenarios, from simple task delegation to complex multi-agent coordination.  Shared Instructions are typically written in Javascript and is executed in a distributed manner across the agents involved in the collaboration.
+Shared Instructions are a bundle of code, functions, and data that is shared between Agents as part of a collaboration. They can include tasks, goals, or any other type of information that is relevant to the collaboration. Shared Instructions are designed to be flexible and can be used in a wide range of scenarios, from simple task delegation to complex multi-agent coordination.  Shared Instructions are typically written in Javascript and is executed in a distributed manner across the agents involved in the collaboration.
 
 ### Verifiable Credentials
 
@@ -33,7 +33,6 @@ Verifiable Credentials are further defined [here](https://www.w3.org/TR/vc-data-
 The DIDExec protocol defines a set of interactions that Agents use to establish a collaboration and exchange Shared Instreuction. These interactions are designed to be flexible and can be adapted to a wide range of use cases and scenarios. The main interactions include:
 
 * Collaboration Interactions
-  * Establish Collaboration
   * Propose Collaboration
   * Accept Collaboration
   * Reject Collaboration
@@ -47,7 +46,7 @@ The DIDExec protocol defines a set of interactions that Agents use to establish 
   * Shared Instruction Call Data
   * Emit/Capture Protocol Events
 
-### Establish Collaboration
+### Propose Collaboration
 
 
 
